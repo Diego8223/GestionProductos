@@ -7,7 +7,7 @@ public class Main {
         System.out.println(" INICIO DEL SISTEMA DE GESTIÓN DE PRODUCTOS");
         System.out.println("=============================================\n");
         
-        // Crear 5 productos de tecnología con datos reales de Colombia 2025
+        // Crear 5 productos de tecnología con datos reales de Colombia 2025  constructor
         System.out.println(" CREANDO 5 PRODUCTOS DE TECNOLOGÍA");
         System.out.println("=====================================");
         
@@ -65,7 +65,7 @@ public class Main {
         producto3.registrarVenta(-2); // Prueba de validación (error)
         System.out.println();
         
-        // ESTADO FINAL DEL SISTEMA
+        // ESTADO FINAL DEL SISTEMA metodo en ejecucion
         System.out.println("ESTADO FINAL DEL INVENTARIO");
         System.out.println("==============================");
         producto1.mostrarInformacion();
@@ -73,6 +73,8 @@ public class Main {
         producto3.mostrarInformacion();
         producto4.mostrarInformacion();
         producto5.mostrarInformacion();
+
+        // Verificacion teoria de metodos aplicados.
         
         System.out.println(" PROGRAMA FINALIZADO EXITOSAMENTE");
         System.out.println("===================================");
